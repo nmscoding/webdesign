@@ -1,0 +1,146 @@
+.footer {
+    background-color: #272829;
+}
+
+/*? Footer Center Css Start */
+
+.footer-center {
+    padding: 60px 0;
+    border-bottom: 1px solid #dee0ea;
+}
+
+.footer-center .footer-widgets {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-center .footer-widgets>div {
+    flex: 1;
+}
+
+.footer-center .footer-widgets>.brand-info {
+    flex: 3;
+}
+
+.footer-widgets .footer-desc {
+    width: 400px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.footer-widgets .footer-contact {
+    font-size: 14px;
+}
+
+
+.footer-widgets .widget-nav-menu h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-widgets .widget-nav-menu-left {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-widgets .widget-nav-menu-left .social-media-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-widgets .widget-nav-menu ul {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer-widgets .widget-nav-menu p {
+    transition: all ease 0.2s;
+    color: #ffffff85;
+}
+
+.footer-widgets .widget-nav-menu a {
+    transition: all ease 0.2s;
+    color: #ffffff85;
+}
+
+.footer-widgets .widget-nav-menu a:hover {
+    color: #b3abab;
+}
+
+
+@media (max-width: 768px) {
+    .brand-info {
+        margin-bottom: 20px;
+    }
+
+    .footer-center .footer-widgets>div {
+        flex: unset !important;
+    }
+
+    .footer-widgets .footer-desc {
+        width: unset !important;
+
+    }
+
+}
+
+/*? Footer Center Css End */
+
+
+/*? Footer Bottom Css Start */
+
+.footer-copyright {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .site-copyright {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.footer-bottom .footer-menu {
+    margin-left: auto;
+}
+
+.footer-menu .footer-menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-menu .footer-menu-list .list-item a {
+    color: #fff;
+
+}
+
+.footer-menu .footer-menu-list .list-item:not(:last-child) {
+    border-right: 1px solid #dee0ea;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-copyright {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .footer-menu {
+        margin-left: unset !important;
+    }
+}
+
+/*? Footer Bottom Css End */

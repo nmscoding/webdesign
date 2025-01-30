@@ -1,0 +1,68 @@
+
+/* Campaign Start */
+
+.campaigns {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.campaigns .campaign-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    width: 100%;
+}
+
+/* Campaign End */
+
+/* Products Start */
+
+.products {
+    margin-bottom: 20px;
+
+}
+
+.products .product-list {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+
+/* Products End */
+
+/* Double Campaign Start */
+
+.double-campaigns {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+/* Double Campaign End */
+
+/* Blog Start */
+
+.blogs {
+    margin-bottom: 20px;
+}
+
+.blogs .blog-list {
+    display: flex !important;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Blog End */
+
+/* Brands Start */
+
+.brands {
+    margin-top: 80px;
+}
+
+
+/* Brands End */

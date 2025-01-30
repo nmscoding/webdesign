@@ -1,0 +1,26 @@
+.double-campaigns .double-campaign-item {
+    color: #000000;    
+    position: relative;
+    display: flex;
+    width: 620px;
+}
+
+.double-campaign-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.double-campaign-item img {
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+@media (max-width: 1400px) and (min-width: 990px) {
+    .double-campaigns .double-campaign-item {
+        width: 486px;
+    }
+}

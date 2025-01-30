@@ -1,0 +1,29 @@
+/*! Global Css */
+
+@import url(base.css);
+
+/*! Layout Css */
+
+@import url(layout/header.css);
+
+@import url(layout/footer.css);
+
+/*! Components Css */
+
+@import url(components/slider.css);
+
+@import url(components/campaign-item.css);
+
+@import url(components/product-item.css);
+
+@import url(components/double-campaign-item.css);
+
+@import url(components/mega-campaign-item.css);
+
+@import url(components/blog-item.css);
+
+@import url(components/brand-item.css);
+
+/*! Pages Css */
+
+@import url(pages/home.css);

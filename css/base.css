@@ -1,0 +1,81 @@
+/*! Base CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+   
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: no-drop;
+}
+
+/*! Base Css End */
+
+/* Responsive */
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        max-width: 350px;
+    }
+}

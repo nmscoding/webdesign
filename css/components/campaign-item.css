@@ -1,0 +1,23 @@
+.campaigns .campaign-items {
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.campaigns .campaign-item {
+    overflow: hidden;
+}
+
+.campaign-item .image-position {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+@media (max-width: 1400px) and (min-width: 990px) {
+    .campaigns .campaign-item {
+        width: 314px;
+    }
+}
